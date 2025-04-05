@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #f9f9f9;
     margin: 0;
     padding: 0;
@@ -59,4 +59,13 @@ input {
 
 #feedback.incorrect {
     color: red; /* 오답일 때 빨간색 */
+}
+.quiz-container h2 {
+    text-align: center; /* 텍스트를 가로로 중앙 정렬 */
+    margin: 20px 0; /* 위아래 여백 추가 */
+    font-size: 24px; /* 글씨 크기 조정 */
+}
+
+h1, h2, button, input {
+    font-family: 'Montserrat', sans-serif; /* 제목, 버튼, 입력 필드에도 동일한 폰트 적용 */
 }
