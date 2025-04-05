@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #5F8B4C;
     color: white;
 }
 
@@ -30,14 +30,14 @@ button {
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #5F8B4C;
     color: white;
     border: none;
     border-radius: 5px;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #5F8B4C;
 }
 
 input {
