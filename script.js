@@ -110,7 +110,7 @@ function loadQuiz() {
     currentQuestion = getRandomHiragana(); // 랜덤 문제 선택
     quizContainer.innerHTML = `
         <h2>이 히라가나는 무엇인가요? ${currentQuestion.character}</h2>
-        <input type="text" id="userAnswer" placeholder="답을 입력하세요">
+        <input type="text" id="userAnswer" placeholder="답을 입력하세요" autocomplete="off">
         `;
     
     feedbackContainer.textContent = ""; // 이전 피드백 초기화
